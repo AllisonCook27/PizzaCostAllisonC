@@ -55,6 +55,7 @@ namespace PizzaCostAllisonC
                 cost = subtotal * TAX;
 
                 //set to text
+                lblcostsubtotal.Text = Convert.ToString(subtotal) + "$";
 
             }
             else
