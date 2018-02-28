@@ -23,7 +23,7 @@ namespace PizzaCostAllisonC
         double subtotal, cost, numberOfPizzas, diameter;
 
         //Setting constants
-        const double TAX = 1.13, ALL = 0.75 + 0.99;
+        const double TAX = 1.13, ALL = (0.75 + 0.99);
 
         public frmPizzaCost()
         {
@@ -34,6 +34,10 @@ namespace PizzaCostAllisonC
 
         private void btnCalculate_Click(object sender, EventArgs e)
         {
+            diameter = 0;
+            numberOfPizzas = 0;
+            subtotal = 0;
+            cost = 0;
             try
             {
                 //set the diameter
@@ -49,13 +53,20 @@ namespace PizzaCostAllisonC
             if (diameter >= 0)
             {
                 //calculate the subtotal
-                subtotal = ALL + 0.50 * diameter * numberOfPizzas;
+                subtotal = (ALL + (0.50 * diameter) * numberOfPizzas);
+                subtotal = Math.Round(subtotal, 2); 
 
                 //calculate the total
                 cost = subtotal * TAX;
+                cost = Math.Round(cost, 2);
 
                 //set to text
                 lblcostsubtotal.Text = Convert.ToString(subtotal) + "$";
+                lblcosttotal.Text = Convert.ToString(cost) + "$";
+
+                //show text
+                lblCost.Show();
+                lblsubtotal.Show();
 
             }
             else

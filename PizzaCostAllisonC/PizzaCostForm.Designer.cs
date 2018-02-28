@@ -47,7 +47,7 @@
             // 
             this.btnCalculate.BackColor = System.Drawing.Color.MediumTurquoise;
             this.btnCalculate.Font = new System.Drawing.Font("Gentium Book Basic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalculate.Location = new System.Drawing.Point(186, 151);
+            this.btnCalculate.Location = new System.Drawing.Point(186, 139);
             this.btnCalculate.Name = "btnCalculate";
             this.btnCalculate.Size = new System.Drawing.Size(90, 33);
             this.btnCalculate.TabIndex = 0;
@@ -79,7 +79,7 @@
             // 
             this.lblCost.AutoSize = true;
             this.lblCost.Font = new System.Drawing.Font("Gentium Book Basic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCost.Location = new System.Drawing.Point(33, 233);
+            this.lblCost.Location = new System.Drawing.Point(33, 217);
             this.lblCost.Name = "lblCost";
             this.lblCost.Size = new System.Drawing.Size(91, 19);
             this.lblCost.TabIndex = 3;
@@ -116,6 +116,7 @@
             this.txtNumberOfPizzas.Name = "txtNumberOfPizzas";
             this.txtNumberOfPizzas.Size = new System.Drawing.Size(100, 20);
             this.txtNumberOfPizzas.TabIndex = 5;
+            this.txtNumberOfPizzas.Text = "1";
             // 
             // txtSize
             // 
@@ -128,7 +129,7 @@
             // 
             this.lblcosttotal.AutoSize = true;
             this.lblcosttotal.Font = new System.Drawing.Font("Gentium Book Basic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblcosttotal.Location = new System.Drawing.Point(182, 233);
+            this.lblcosttotal.Location = new System.Drawing.Point(205, 217);
             this.lblcosttotal.Name = "lblcosttotal";
             this.lblcosttotal.Size = new System.Drawing.Size(0, 19);
             this.lblcosttotal.TabIndex = 7;
@@ -137,7 +138,7 @@
             // 
             this.lblsubtotal.AutoSize = true;
             this.lblsubtotal.Font = new System.Drawing.Font("Gentium Book Basic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblsubtotal.Location = new System.Drawing.Point(33, 198);
+            this.lblsubtotal.Location = new System.Drawing.Point(33, 188);
             this.lblsubtotal.Name = "lblsubtotal";
             this.lblsubtotal.Size = new System.Drawing.Size(114, 19);
             this.lblsubtotal.TabIndex = 8;
@@ -147,7 +148,7 @@
             // 
             this.lblcostsubtotal.AutoSize = true;
             this.lblcostsubtotal.Font = new System.Drawing.Font("Gentium Book Basic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblcostsubtotal.Location = new System.Drawing.Point(182, 198);
+            this.lblcostsubtotal.Location = new System.Drawing.Point(205, 188);
             this.lblcostsubtotal.Name = "lblcostsubtotal";
             this.lblcostsubtotal.Size = new System.Drawing.Size(0, 19);
             this.lblcostsubtotal.TabIndex = 9;
