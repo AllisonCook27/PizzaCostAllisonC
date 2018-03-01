@@ -44,7 +44,7 @@ namespace PizzaCostAllisonC
                 diameter = double.Parse(txtSize.Text);
 
                 //set the number of pizza
-                numberOfPizzas = double.Parse(txtSize.Text);
+                numberOfPizzas = double.Parse(txtNumberOfPizzas.Text);
             }
             catch
             {
@@ -53,9 +53,9 @@ namespace PizzaCostAllisonC
             if (diameter >= 0)
             {
                 //calculate the subtotal
-                subtotal = (ALL + (0.50 * diameter) * numberOfPizzas);
-                subtotal = Math.Round(subtotal, 2); 
-
+                subtotal = (ALL + (0.50 * diameter))*numberOfPizzas;
+                subtotal = Math.Round(subtotal, 2);
+                   
                 //calculate the total
                 cost = subtotal * TAX;
                 cost = Math.Round(cost, 2);
